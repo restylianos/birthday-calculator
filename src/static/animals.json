@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Dog",
+    "specie": "Canis lupus familiaris",
+    "description": "A dog’s nose print is unique, much like a person’s fingerprint. 🥸 ",
+    "img": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg"
+  },
+  {
+    "name": "Cat",
+    "specie": "Felis catus",
+    "description": "Cats are believed to be the only mammals who don't taste sweetness. 🍰",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg"
+  },
+  {
+    "name": "Parrot",
+    "specie": "Psittaciformes",
+    "description": "The world record holder knew more than 1,700 words (1995 Guinness Book) 🦜",
+    "img": "https://i.pinimg.com/originals/08/43/5d/08435d92e54dd169b6e5d5a747e5a751.jpg"
+  },
+  {
+    "name": "GoldFish",
+    "specie": "Cypriniformes",
+    "description": "Goldfish make noises through their noses (during eating and fighting) 🦈",
+    "img": "https://m.media-amazon.com/images/I/71yjBFl-cbL._AC_SY355_.jpg"
+  }
+]
