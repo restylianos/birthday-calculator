@@ -4,6 +4,9 @@ module.exports = {
   prefix: 'tw-',
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    minWidth: {
+      12: '180px',
+    },
     colors: {
       purple: '#7e5bef',
       pink: '#ff49db',

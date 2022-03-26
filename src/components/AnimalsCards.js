@@ -10,7 +10,7 @@ import { setSelectedAnimalAction } from '../state/actions/generalActions';
 const AnimalsCards = ({ animalsArray, setAnimalName }) => {
   if (!animalsArray || !animalsArray.length) return null;
   return (
-    <div className="tw-container tw-mt-8">
+    <div className="tw-container tw-mx-auto tw-mt-8">
       <div className="tw-grid tw-grid-cols-4 tw-gap-4">
         {animalsArray.map((animal, i) => (
           <Link

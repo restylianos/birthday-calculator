@@ -9,6 +9,7 @@ import { animalToHumanAge, validateAge } from '../helpers/helpers';
 import { noop, of } from 'rxjs';
 import { map, debounceTime } from 'rxjs/operators';
 import { Link, useNavigate } from 'react-router-dom';
+import Facts from './cat/Facts';
 
 const BirthdayCalculator = ({ animalName }) => {
   const navigate = useNavigate();
@@ -35,7 +36,6 @@ const BirthdayCalculator = ({ animalName }) => {
           onChange={(e) => {
             of(e.target.value)
               .pipe(
-                debounceTime(5000),
                 map(
                   (x) => {
                     if (!x) {
@@ -77,6 +77,7 @@ const BirthdayCalculator = ({ animalName }) => {
             Back
           </button>
         </Link>
+        {animalName === 'Cat' && <Facts></Facts>}
       </div>
     </div>
   ) : null;
