@@ -6,7 +6,7 @@ const initialState = {
   selectedAnimalName: null,
 };
 
-const reducers = (initialState, action) => {
+const reducers = (initialState = {}, action) => {
   switch (action.type) {
     case SET_SELECTED_ANIMAL:
       return {
